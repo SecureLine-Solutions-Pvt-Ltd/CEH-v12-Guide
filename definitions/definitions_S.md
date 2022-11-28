@@ -169,6 +169,32 @@ It uses XML Information Set for its message format, and relies on application la
 Links
 - [https://en.wikipedia.org/wiki/SOAP](https://en.wikipedia.org/wiki/SOAP)
 
+## Sinkhole
+A DNS sinkhole, also known as a sinkhole server, Internet sinkhole, or Blackhole DNS is a DNS server that has been configured to hand out non-routable addresses for a certain set of domain names.
+
+Links
+- [https://en.wikipedia.org/wiki/DNS_sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole)
+ 
+## Slowloris Attack
+Slowloris is a type of denial of service attack tool which allows a single machine to take down another machine's web server with minimal bandwidth and side effects on unrelated services and ports.
+Slowloris tries to keep many connections to the target web server open and hold them open as long as possible.
+It accomplishes this by opening connections to the target web server and sending a partial request.
+Periodically, it will send subsequent HTTP headers, adding to, but never completing, the request.
+Affected servers will keep these connections open, filling their maximum concurrent connection pool, eventually denying additional connection attempts from clients.
+
+Links
+- [https://en.wikipedia.org/wiki/Slowloris_(computer_security)](https://en.wikipedia.org/wiki/Slowloris_(computer_security))
+
+## Smishing
+Smishing is a form of phishing that utilizes our mobile phones as the attack platform to solicit our personal details like SSN or credit card number.
+
+## Snort
+Snort is a free open source network intrusion detection system and intrusion prevention system created in 1998 by Martin Roesch, founder and former CTO of Sourcefire.
+Snort is now developed by Cisco, which purchased Sourcefire in 2013.
+
+Links
+- [https://www.snort.org](https://www.snort.org)
+
 ## Social Engineering
 In the context of information security, social engineering is the psychological manipulation of people into performing actions or divulging confidential information.
 This differs from social engineering within the social sciences, which does not concern the divulging of confidential information.
@@ -181,9 +207,6 @@ In the United States, a Social Security number (SSN) is a nine-digit number issu
 
 Links
 - [https://en.wikipedia.org/wiki/Social_Security_number](https://en.wikipedia.org/wiki/Social_Security_number)
-
-## Smishing
-Smishing is a form of phishing that utilizes our mobile phones as the attack platform to solicit our personal details like SSN or credit card number.
 
 ## Spam
 Email spam, also referred to as junk email, spam mail, or simply spam, is unsolicited messages sent in bulk by email (spamming).
@@ -281,6 +304,12 @@ A network switch (also called switching hub, bridging hub, and, by the IEEE, MAC
 
 Links
 - [https://en.wikipedia.org/wiki/Network_switch](https://en.wikipedia.org/wiki/Network_switch)
+
+## Sybil Attack
+A Sybil attack is a type of attack on a computer network service in which an attacker subverts the service's reputation system by creating a large number of pseudonymous identities and uses them to gain a disproportionately large influence
+
+Links
+- [https://en.wikipedia.org/wiki/Sybil_attack](https://en.wikipedia.org/wiki/Sybil_attack)
 
 ## SYN Flood Attack
 A SYN flood is a form of denial-of-service attack in which an attacker rapidly initiates a connection to a server without finalizing the connection.
